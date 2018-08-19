@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Crystal Collectors</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>Document</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Crystal Collector</h1>
+                </div>
+              </div>
+
+    
+    <div id="instructions">
+        <p>
+            <h4>Instruction</h4>
+            <hr>You will be given a random number at the start of the game.
+        </p>
+        <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.</p>
+        <p> You win the game by matching your total score to the random number. You lose the game if your total score goes
+            above the random number. </p>
+        <p> Each time the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div id="guessingNumber">0</div>
+    <h1>Number to Guess : <span class="value"></span></h1>
+
+    <div id="scoreboard">
+        <h2><span id="status"></span></h2>
+        <div>Wins:<span id="Wins"></span></div>
+        <div>Losses: <span id="Losses"></div>
+    </div>
+
+    <div id="0" class="crystal">Crystal 0</div>
+    <div id="1" class="crystal">Crystal 1</div>
+    <div id="2" class="crystal">Crystal 2</div>
+    <div id="3" class="crystal">Crystal 3</div>
+
+    <div id="totalScore">
+        <h3>Your Total score is: <span id="yourscore">0</span></h3>
+    </div>
+
+<footer>
+    <p>Developed by: Garrett</p>
+    <p>Contact Information: <a href="mailto:someone@example.com">
+        gbdrone7@gmail.com</a></p>
+</footer>
+
+</body>
+
+</html>
